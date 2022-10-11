@@ -64,5 +64,4 @@ function setupContextmenu() {
     deviceID = setID
     setupCamera();
   }
-  document.getElementById("demo").innerHTML = text;
 }
