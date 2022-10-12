@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
   background(0);
-  if (capture.loadedmetadata) {
+  if (typeof(capture.loadedmetadata) != "undefined" && capture.loadedmetadata) {
   image(capture, 0, 0, windowWidth, width * capture.height / capture.width);
   }
 }
